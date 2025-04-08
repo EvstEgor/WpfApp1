@@ -33,4 +33,5 @@ namespace WpfApp1
             DataContext = this;
             }
         }
+    // комментарий
 }
