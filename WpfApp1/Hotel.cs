@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace WpfApp1
 {
-    internal class Hotel
+    public class Hotel
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Stars { get; set; }
+        public string Location { get; set; }
+        public string ImageUrl { get; set; }
     }
+
 }

@@ -20,6 +20,8 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Hotel> CurrentHotel { get; set;}
+
         public MainWindow()
         {
             InitializeComponent();
